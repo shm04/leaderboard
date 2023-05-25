@@ -1,3 +1,51 @@
+* {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
 body {
-    background-color: bisque;
+  padding: 0 50px;
+}
+
+.main-container {
+  display: flex;
+  gap: 10%;
+}
+
+.scores-sec {
+  width: 350px;
+}
+
+.scores-div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.refresh-btn {
+  height: max-content;
+  padding: 5px;
+}
+
+.scores-cont {
+  border: solid 1px #000;
+  padding: 0 10px;
+  border-radius: 5px;
+  height: 100px;
+}
+
+.input-sec {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  width: 250px;
+}
+
+.inputs {
+  padding: 5px;
+}
+
+.submit-btn {
+  width: fit-content;
+  padding: 5px;
+  align-self: flex-end;
 }
