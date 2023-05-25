@@ -21,7 +21,7 @@ __webpack_require__.r(__webpack_exports__);
 
 var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default()((_node_modules_css_loader_dist_runtime_sourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default()));
 // Module
-___CSS_LOADER_EXPORT___.push([module.id, "* {\r\n    font-family: Arial, Helvetica, sans-serif;\r\n}\r\n\r\n", "",{"version":3,"sources":["webpack://./src/styles/main.css"],"names":[],"mappings":"AAAA;IACI,yCAAyC;AAC7C","sourcesContent":["* {\r\n    font-family: Arial, Helvetica, sans-serif;\r\n}\r\n\r\n"],"sourceRoot":""}]);
+___CSS_LOADER_EXPORT___.push([module.id, "* {\r\n  font-family: Arial, Helvetica, sans-serif;\r\n}\r\n\r\nbody {\r\n  padding: 0 50px;\r\n}\r\n\r\n.main-container {\r\n  display: flex;\r\n  gap: 10%;\r\n}\r\n\r\n.scores-sec {\r\n  width: 350px;\r\n}\r\n\r\n.scores-div {\r\n  display: flex;\r\n  justify-content: space-between;\r\n  align-items: center;\r\n}\r\n\r\n.refresh-btn {\r\n  height: max-content;\r\n  padding: 5px;\r\n}\r\n\r\n.scores-cont {\r\n  border: solid 1px #000;\r\n  padding: 0 10px;\r\n  border-radius: 5px;\r\n  height: 100px;\r\n}\r\n\r\n.input-sec {\r\n  display: flex;\r\n  flex-direction: column;\r\n  gap: 20px;\r\n  width: 250px;\r\n}\r\n\r\n.inputs {\r\n  padding: 5px;\r\n}\r\n\r\n.submit-btn {\r\n  width: fit-content;\r\n  padding: 5px;\r\n  align-self: flex-end;\r\n}\r\n", "",{"version":3,"sources":["webpack://./src/styles/main.css"],"names":[],"mappings":"AAAA;EACE,yCAAyC;AAC3C;;AAEA;EACE,eAAe;AACjB;;AAEA;EACE,aAAa;EACb,QAAQ;AACV;;AAEA;EACE,YAAY;AACd;;AAEA;EACE,aAAa;EACb,8BAA8B;EAC9B,mBAAmB;AACrB;;AAEA;EACE,mBAAmB;EACnB,YAAY;AACd;;AAEA;EACE,sBAAsB;EACtB,eAAe;EACf,kBAAkB;EAClB,aAAa;AACf;;AAEA;EACE,aAAa;EACb,sBAAsB;EACtB,SAAS;EACT,YAAY;AACd;;AAEA;EACE,YAAY;AACd;;AAEA;EACE,kBAAkB;EAClB,YAAY;EACZ,oBAAoB;AACtB","sourcesContent":["* {\r\n  font-family: Arial, Helvetica, sans-serif;\r\n}\r\n\r\nbody {\r\n  padding: 0 50px;\r\n}\r\n\r\n.main-container {\r\n  display: flex;\r\n  gap: 10%;\r\n}\r\n\r\n.scores-sec {\r\n  width: 350px;\r\n}\r\n\r\n.scores-div {\r\n  display: flex;\r\n  justify-content: space-between;\r\n  align-items: center;\r\n}\r\n\r\n.refresh-btn {\r\n  height: max-content;\r\n  padding: 5px;\r\n}\r\n\r\n.scores-cont {\r\n  border: solid 1px #000;\r\n  padding: 0 10px;\r\n  border-radius: 5px;\r\n  height: 100px;\r\n}\r\n\r\n.input-sec {\r\n  display: flex;\r\n  flex-direction: column;\r\n  gap: 20px;\r\n  width: 250px;\r\n}\r\n\r\n.inputs {\r\n  padding: 5px;\r\n}\r\n\r\n.submit-btn {\r\n  width: fit-content;\r\n  padding: 5px;\r\n  align-self: flex-end;\r\n}\r\n"],"sourceRoot":""}]);
 // Exports
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
 
@@ -554,4 +554,4 @@ __webpack_require__.r(__webpack_exports__);
 
 /******/ })()
 ;
-//# sourceMappingURL=bundle271bd120f6f8b0f2ca2b.js.map
+//# sourceMappingURL=bundle0185d4712cbd206272fc.js.map
