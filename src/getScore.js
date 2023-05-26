@@ -14,6 +14,7 @@ const getScores = async (gameId) => {
 
     scoreList.forEach((score) => {
       const p = document.createElement('p');
+      p.className = 'score-p';
       p.textContent = `${score.user}: ${score.score}`;
       scoresContainer.appendChild(p);
     });
