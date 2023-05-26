@@ -25,7 +25,6 @@ body {
   border-radius: 10px;
 }
 
-
 .scores-sec {
   width: 350px;
 }
@@ -68,10 +67,9 @@ body {
 }
 
 .inputs {
-  padding: 5px;
   background-color: var(--primary-color);
   border: #fff solid 3px;
-  border-radius: 5px ;
+  border-radius: 5px;
   padding: 7px;
 }
 
@@ -86,7 +84,6 @@ body {
 
 .submit-btn {
   width: fit-content;
-  padding: 5px;
   align-self: flex-end;
   padding: 10px;
   background-color: var(--primary-color);
